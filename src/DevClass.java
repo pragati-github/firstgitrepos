@@ -18,5 +18,6 @@ public class DevClass {
     public static void main(String[] args) {
         System.out.println("This is a new class on Dev Branch");
         System.out.println("The total number of characters in list :"+printMessage(strList));
+        strList.forEach(System.out::println);
     }
 }
