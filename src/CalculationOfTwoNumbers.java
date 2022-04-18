@@ -1,4 +1,4 @@
-public class AddTwoNumbers {
+public class CalculationOfTwoNumbers {
     public static String add(int a ,int b){
         return "The addition of two numbers is : "+(a+b);
     }
