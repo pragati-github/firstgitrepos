@@ -7,7 +7,7 @@ public class CalculationOfTwoNumbers {
     }
     public static String division(int a,int b){
         try {
-            System.out.println("Two given numbers are : "+a+" , "+b);
+            System.out.println("Two given numbers are : "+a+" and "+b);
             return "The division of two numbers is : "+(a/b);
         }
         catch (ArithmeticException e){
@@ -17,6 +17,6 @@ public class CalculationOfTwoNumbers {
     public static void main(String[] args) {
         System.out.println(addition(100,200));
         System.out.println(multiplication(10,20));
-        System.out.println(division(10,2));
+        System.out.println(division(100,2));
     }
 }
