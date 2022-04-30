@@ -17,6 +17,7 @@ public class CalculationOfTwoNumbers {
     public static void main(String[] args) {
         System.out.println(addition(100,200));
         System.out.println(multiplication(10,20));
-        System.out.println(division(100,2));
+         System.out.println(division(102,2));
+
     }
 }
