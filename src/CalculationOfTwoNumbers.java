@@ -14,10 +14,14 @@ public class CalculationOfTwoNumbers {
             throw new ArithmeticException("Please provide a number which is greater than 0");
         }
     }
+    public static String subtraction(int a , int b){
+        return "The subtraction of two numbers is : "+(a-b);
+    }
     public static void main(String[] args) {
         System.out.println(addition(100,200));
         System.out.println(multiplication(10,20));
          System.out.println(division(102,2));
+        System.out.println(subtraction(50,30));
 
     }
 }
